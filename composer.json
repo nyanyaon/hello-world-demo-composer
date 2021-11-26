@@ -1,0 +1,21 @@
+{
+    "name": "nyanyaon/hello-world-demo-composer",
+    "description": "demo composer",
+    "keywords": ["demo composer"],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "nyanyaon\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "authors": [
+        {
+            "name": "syaifulicube",
+            "email": "mochamad.syaiful@sirclo.com"
+        }
+    ],
+    "license": "MIT"
+}
